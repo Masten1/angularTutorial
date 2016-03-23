@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="helloWorldApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular tutorial</title>
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/controller.js"></script>
+</head>
+<body ng-controller="HelloWorldCtrl">
+
+    <h1>{{message}}</h1>
+
+    <input ng-model="text">
+    <button ng-click="clickHandler()">Обновить</button>
+
+</body>
+</html>
